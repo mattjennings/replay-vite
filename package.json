@@ -1,0 +1,18 @@
+{
+  "name": "replay-vite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@replay/core": "0.9.0",
+    "@replay/swift": "0.9.0",
+    "@replay/web": "0.9.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.0",
+    "vite": "^2.4.0"
+  }
+}
